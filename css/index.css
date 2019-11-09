@@ -86,13 +86,13 @@ body {
 .accent {
   color: #00B2FF;
 }
-.middle-container {
+.projects-container {
   height: 100vh;
   width: 100%;
   padding: 75px 0;
-  background: #0C6CE8;
+  background: #1d38b6;
 }
-.middle-intro {
+.projects-intro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +123,7 @@ body {
   line-height: 25px;
   text-align: center;
 }
-.middle-content {
+.project-content {
   width: 100%;
   height: 60%;
   padding: 0 10%;
@@ -134,7 +134,6 @@ body {
   margin-top: 40px;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
 }
 .project-card {
   display: flex;
@@ -143,7 +142,6 @@ body {
   width: 30%;
   height: 100%;
   padding: 0 1%;
-  border: 1px solid greenyellow;
   border-radius: 6px;
   background: #f5f5f5;
   box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
@@ -151,7 +149,7 @@ body {
 .project-card img {
   width: 100%;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .project-card h3 {
   color: #3C3C3C;
@@ -173,6 +171,85 @@ body {
   font-weight: normal;
   font-size: 18px;
   text-align: center;
+  margin-bottom: 50px;
+}
+.built-with {
+  font-size: 26px;
+  color: #3C3C3C;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  width: 48%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 22px;
+  color: #3C3C3C;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+.skills-container {
+  height: 100vh;
+  width: 100%;
+  padding: 75px 10%;
+  background: #0C6CE8;
+}
+.skills-intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 50px auto;
+  width: 55%;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.skill-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3C3C3C;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.skill-intro h2 {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+.skill-intro p {
+  font-size: 18px;
+  width: 70%;
+  line-height: 25px;
+  text-align: center;
+}
+.skills-content {
+  width: 100%;
+  height: 80%;
+  padding: 0 10%;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 header {
   height: 10%;
