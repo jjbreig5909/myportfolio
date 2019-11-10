@@ -65,7 +65,7 @@ body {
   margin: 10px auto;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
-  border-top: 35px solid #0C6CE8;
+  border-top: 35px solid #00B2FF;
 }
 .arrow-down-medium {
   width: 0;
@@ -73,15 +73,7 @@ body {
   margin: auto;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #0C6CE8;
-}
-.arrow-down-small {
-  width: 0;
-  height: 0;
-  margin: auto;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #0C6CE8;
+  border-top: 20px solid #00B2FF;
 }
 .accent {
   color: #00B2FF;
@@ -283,7 +275,7 @@ body {
   text-align: center;
   padding-bottom: 5px;
   background-image: linear-gradient(to right, transparent 0%, #00B2FF 20%, #00B2FF 80%, transparent 100%);
-  background-position: 0 1.55em;
+  background-position: 0 1.6em;
   background-repeat: repeat-x;
   background-size: max-content;
   width: max-content;
@@ -391,6 +383,14 @@ body {
   color: #3C3C3C;
   width: 15%;
 }
+.contact-form button:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  background: #0D47A1;
+  color: white;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -413,6 +413,16 @@ body {
   color: white;
   font-size: 40px;
   width: 25%;
+}
+.footer-icons a {
+  color: white;
+}
+.footer-icons a:visited {
+  color: white;
+}
+.footer-icons a:hover {
+  transform: scale(1.2);
+  transition: all 0.15s;
 }
 header {
   height: 10%;
