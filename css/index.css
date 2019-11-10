@@ -90,7 +90,7 @@ body {
   height: 100vh;
   width: 100%;
   padding: 75px 0;
-  background: #1d38b6;
+  background: #607D8B;
 }
 .projects-intro {
   display: flex;
@@ -230,7 +230,7 @@ body {
   height: 100vh;
   width: 100%;
   padding: 75px 10%;
-  background: #0C6CE8;
+  background: #90A4AE;
 }
 .skills-intro-container {
   display: flex;
@@ -303,7 +303,7 @@ body {
   height: 90vh;
   width: 100%;
   padding-top: 75px;
-  background: #f1b34f;
+  background: #455A64;
 }
 .contact-intro-container {
   display: flex;
