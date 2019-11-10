@@ -194,7 +194,29 @@ body{
     font-weight: normal;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+
+.responsibilities{
+    padding: 5%;
+    height: 16%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    list-style: none;
+    li::before {
+        content: "\2b9e";  
+        color: @accent-color;
+        font-weight: bold; 
+        display: inline-block;
+        width: 1em; 
+        margin-left: -1em;
+    }
+    li{
+        margin-bottom: 5px;
+    }
 }
 
 .built-with{
@@ -211,7 +233,7 @@ body{
     justify-content: space-evenly;
     width: 75%;
     font-size: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .buttons{
@@ -373,7 +395,56 @@ body{
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 5px 10px 5px rgba(0,0,0,.30);
+    padding: 5% 3%;
 }
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    label{
+        display: none;
+    }
+    input{
+    color: @font-para;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    border: none;
+    border-bottom: 2px solid @accent-color;
+    padding: 0 0 .5rem;
+    border-radius: 0;
+    text-align: center;
+    margin-bottom: 5vh;
+    &::placeholder{
+        font-size: 18px;
+    }
+    }
+    textarea{
+    border: 2px solid @accent-color;
+    height: 15vh;
+    padding: 0 0 .5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 3vh;
+    color: @font-para;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    }
+    button{
+        background: @accent-color;
+        border: none;
+        border-radius: 5px;
+        padding: 1rem 1.25rem;
+        font-size: 18px;
+        color: @font-para;
+        width: 15%;
+    }
+}
+
 .footer{
     display: flex;
     flex-direction: column;

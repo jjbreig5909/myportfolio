@@ -155,6 +155,10 @@
           <h3>Songsight</h3>
           <img src="Images/Songsight.JPG" alt="Picture of the Songsight website">
           <p class="project-summary">Web based app that analyzes your favorite songs and helps you to discover new music you'll enjoy based on them.</p>
+          <ul class="responsibilities">
+            <li>Developed branding, logo, and site concept.</li>
+            <li>Designed UI.</li>
+          </ul>
           <p class="built-with">Built with:</p>
           <div class="icons">
             <i class="fab fa-html5" style="color: #E44D26"></i>
@@ -173,6 +177,10 @@
           <img src="Images/Songsight.JPG" alt="Picture of the Songsight website">
           <p class="project-summary">Web based app that analyzes your favorite songs and helps you to discover new music you'll
             enjoy based on them.</p>
+            <ul class="responsibilities">
+              <li>Developed CMS for local furniture company.</li>
+              <li>Integrated shopping functionality.</li>
+            </ul>
             <p class="built-with">Built with:</p>
             <div class="icons">
               <i class="fab fa-html5" style="color: #E44D26"></i>
@@ -194,6 +202,10 @@
           <img src="Images/Songsight.JPG" alt="Picture of the Songsight website">
           <p class="project-summary">Web based app that analyzes your favorite songs and helps you to discover new music you'll
             enjoy based on them.</p>
+            <ul class="responsibilities">
+              <li>Built backend using PHP.</li>
+              <li>Did some other stuff.</li>
+            </ul>
             <p class="built-with">Built with:</p>
             <div class="icons">
               <i class="fab fa-html5" style="color: #E44D26"></i>
@@ -223,7 +235,15 @@
           </div>
         </div>
         <div class="contact-content">
-
+          <form class="contact-form" name="contact-form" method="POST" action="/"><input type="hidden" name="form-name" value="contact-form">
+            <label id="email" for="email">email</label> 
+            <input type="email" name="email" placeholder="email" required="" aria-labelledby="email">
+            <label for="subject" id="subject">subject</label>
+            <input type="text" name="subject" placeholder="subject" required="" aria-labelledby="subject">
+            <label for="message" id="message">message</label>
+            <textarea name="message" placeholder="message" required="" aria-labelledby="message"></textarea>
+            <button type="submit">Send</button>
+          </form>
         </div>
 
       </div>
