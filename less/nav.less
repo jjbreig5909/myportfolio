@@ -28,6 +28,7 @@ header{
 .nav-links{
     display: flex; 
     justify-content: space-between;
+    align-items: center;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -35,7 +36,47 @@ header{
     width: 34%;
     max-width: 400px;
     a{
+        display: flex;
+        align-items: center;
         text-decoration: none;
         color: @font-nav;
-    }
+        height: 25px;
+        position: relative;
+        }
+a::before{
+  content: "";
+  position: absolute;
+  background: @accent-color;
+  width: 0%;
+  height: 5%;
+  top: 90%;
+  right: 100%;
+  bottom: 95%;
+  left: 100%;
 }
+
+a::after{
+  content: "";
+  position: absolute;
+  background: @accent-color;
+  width: 0%;
+  height: 5%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+a:hover::after{
+  transition: all .3s;
+  width: 100%;
+}
+
+a:hover::before{
+  transition: all .3s;
+  width: 100%;
+  left: 0%;
+  top: 90%;
+  bottom: 95%;
+}
+    }
